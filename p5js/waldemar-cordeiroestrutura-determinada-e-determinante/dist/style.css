@@ -1,0 +1,11 @@
+body { margin: 0 }
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+canvas {
+  margin: auto;
+  max-width: 50%;
+  max-height: 100%;
+}

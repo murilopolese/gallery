@@ -1,0 +1,12 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background: black;
+}
+canvas {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Murilo Polese - Gallery</title>
+    <script type="text/javascript" src="./db.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+  </head>
+  <body>
+    <h1 style="display: none;">Murilo Polese - Gallery</h1>
+    <div class="header">
+      <img class="avatar" src="murilismo.jpg" width="50%" />
+      <p>
+        In <a target="_blank" href="https://murilopolese.github.io/RTP_SFPC_SUMMER20/">Recreating the Past</a>,
+        <a target="_blank" href="https://murilopolese.github.io/murilopolese/">I</a> studied computational art from the past decades and recreated these
+        works with contemporary techniques to gain aesthetic, analytical and
+        technical knowledge.
+      </p>
+      <p>
+        Since then I continue learning from the past, present and future.
+      </p>
+    </div>
+    <div class="feed"></div>
+    <div class="code">
+      <p>
+        All code (including this website) can be found in the <a target="_blank" href="https://github.com/murilopolese/p5js_feed">repository</a>.
+        You can download it directly as a <a target="_blank" href="https://github.com/murilopolese/p5js_feed/archive/master.zip">compressed file</a>.
+      </p>
+    </div>
+
+    <script type="text/javascript">
+      function iframe(src) {
+        let el = document.createElement('iframe')
+        el.scrolling = 'no'
+        el.src = src
+        el.style.opacity = 0
+        el.addEventListener('load', () => el.style.opacity = 1)
+        return el
+      }
+      function onMouseOver(e) {
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          // Make sure to clean iframes (on mobile only) before adding a new one
+          let items = document.querySelectorAll('.item')
+          for (let i = 0; i < items.length; i++) {
+            items[i].innerHTML = ''
+          }
+        }
+        let target = e.target
+        if (target.classList.contains('item')) {
+          target.innerHTML = ''
+          let url = `${target.dataset['url']}/dist/index.html`
+          let el = iframe(url)
+          target.appendChild(el)
+          el.classList.add('show')
+        }
+        return false
+      }
+      function onMouseOut(e) {
+        let target = e.target
+        if (target.tagName.toLowerCase() === 'iframe') {
+          target.remove()
+        }
+        return false
+      }
+      window.onload = function() {
+        let feedEl = document.querySelector('.feed')
+        let entries = window.db.entries.reverse()
+        entries.forEach((entry) => {
+          let item = document.createElement('div')
+          item.classList.add('item')
+          item.dataset['url'] = entry
+          item.style.backgroundSize = `cover`
+          item.style.backgroundImage = `url('${entry}/thumbnail.png')`
+          item.style.backgroundRepeat = `no-repeat`
+          item.style.backgroundPosition = `center center`
+          item.addEventListener('mouseover', onMouseOver)
+          item.addEventListener('mouseout', onMouseOut)
+          feedEl.appendChild(item)
+        })
+      }
+    </script>
+  </body>
+</html>

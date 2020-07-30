@@ -1,0 +1,28 @@
+window.db = {
+  entries: [
+    "./p5js/vera-moln-rcarr-s-en-deux-positions-4",
+    "./p5js/vera-moln-rimaginary-machine",
+    "./p5js/vera-moln-rinterruptions",
+    "./p5js/random-digits-animation",
+    "./p5js/john-withneylinear-figure-1",
+    "./p5js/john-withneylinear-figure-3",
+    "./p5js/john-withneylinear-figure-2",
+    "./p5js/john-withneylinear-figure-4-two",
+    "./p5js/john-withneylinear-figure",
+    "./p5js/john-withneymatrix-study-1",
+    "./p5js/john-withneypermutations",
+    "./p5js/muriel-coopermeans-and-message",
+    "./p5js/muriel-coopermeans-and-meaning-responsive",
+    "./p5js/anni-albersdraft-notation",
+    "./p5js/weaving-animation-study-1",
+    "./p5js/weaving-animation-study-2",
+    "./p5js/cellular-automata-wireworld-1",
+    "./p5js/cellular-automatawireworld-rule-110",
+    "./p5js/satoshi-aizawa",
+    "./p5js/waldemar-cordeirofantasia-exata-1",
+    "./p5js/waldemar-cordeiroideia-visivel",
+    "./p5js/waldemar-cordeiroideia-visivel-2",
+    "./p5js/waldemar-cordeiroestrutura-determinada-e-determinante",
+    "./p5js/meander",
+  ]
+}
