@@ -23,6 +23,6 @@ window.db = {
     "./p5js/waldemar-cordeiroideia-visivel",
     "./p5js/waldemar-cordeiroideia-visivel-2",
     "./p5js/waldemar-cordeiroestrutura-determinada-e-determinante",
-    "./p5js/meander",
+    "./p5js/anni-albers-meander",
   ]
 }
