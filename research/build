@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# rtp
+node convert.js content/rtp/Anni_Albers.md output/anni-albers.html
+node convert.js content/rtp/Jason_Salavon.md output/jason-salavon.html
+node convert.js content/rtp/John_Whitney.md output/john-whitney.html
+node convert.js content/rtp/Ken_Knowlton.md output/ken-knowlton.html
+node convert.js content/rtp/Lillian_Schwartz.md output/lillian-schwartz.html
+node convert.js content/rtp/Muriel_Cooper.md output/muriel-cooper.html
+node convert.js content/rtp/Myron_Krueger.md output/myron-krueger.html
+node convert.js content/rtp/Nancy_Burson.md output/nancy-burson.html
+node convert.js content/rtp/Rosa_Menkman.md output/rosa-menkman.html
+node convert.js content/rtp/Vera_Molnar.md output/vera-molnar.html
+node convert.js content/rtp/Woody_and_Steina_Vasulka.md output/vasulkas.html
+node convert.js content/rtp/Bridget_Riley.md output/bridget-riley.html
+
+# recriando
+node convert.js content/index.md output/index.html
+node convert.js content/Waldemar_Cordeiro.md output/waldemar-cordeiro.html
+node convert.js content/Abraham_Palatnik.md output/abraham-palatnik.html
+node convert.js content/Ivan_Serpa.md output/ivan-serpa.html
+node convert.js content/Lygia_Clark.md output/lygia-clark.html
+node convert.js content/Franz_Weissman.md output/franz-weissman.html

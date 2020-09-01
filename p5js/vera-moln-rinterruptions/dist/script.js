@@ -12,7 +12,7 @@ for (let i = 0; i < W; i++) {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(min(windowHeight,600), min(windowHeight,600));
   angleMode(DEGREES);
   l = width / W; // line length
   stroke(155);
@@ -25,7 +25,7 @@ function draw() {
     for(let j = 0; j < 56; j++) {
       push();
       translate(
-        map(l*i, 0, width, l, width-l), 
+        map(l*i, 0, width, l, width-l),
         map(l*j, 0, height, l, height-l)
       );
       rotate(

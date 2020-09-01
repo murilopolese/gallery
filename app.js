@@ -1,3 +1,4 @@
+// HTML FRAMEWORK
 function isPlainObject(value) {
 	if (Object.prototype.toString.call(value) !== '[object Object]') {
 		return false;
@@ -40,20 +41,45 @@ function render(query, el) {
 	}
 }
 
+// Entry component
+function entryEl(state, emit) {
+	let thumbnail = `${state.display}/thumbnail.png`
+	let display = `${state.display}/dist/index.html`
+	return h('div', { class: 'item' },
+		h('div', {
+				'mouseover': onMouseOver,
+				'mouseout': onMouseOut,
+				'class': 'display',
+				'data-url': display,
+				'style': {
+          backgroundSize: 'cover',
+          backgroundImage: `url('${thumbnail}')`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center'
+        }
+			}
+		),
+
+		h('p', { class: 'info' },
+			h('a', { href: state.research, target: '_blank' }, 'research'),
+			' ',
+			h('a', { href: display, target: '_blank' }, 'full screen')
+		)
+	)
+}
 function onMouseOver(e) {
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     // Make sure to clean iframes (on mobile only) before adding a new one
-    let items = document.querySelectorAll('.item')
+    let items = document.querySelectorAll('.display')
     for (let i = 0; i < items.length; i++) {
       items[i].innerHTML = ''
     }
   }
   let target = e.target
-  if (target.classList.contains('item')) {
+  if (target.classList.contains('display')) {
     target.innerHTML = ''
-    let url = `${target.dataset['url']}/dist/index.html`
+    let url = `${target.dataset['url']}`
     let el = h('iframe', {
-      class: 'show',
       src: url,
       style: { opacity: 0 },
       load: () => el.style.opacity = 1
@@ -72,22 +98,9 @@ function onMouseOut(e) {
 
 window.onload = function() {
   let feedEl = h('div', { class: 'feedEl' })
-  let entries = window.db.entries.reverse()
+  let entries = window.db.reverse()
   entries = entries.map((entry) => {
-    return h('div', {},
-      h('div', {
-        'class': 'item',
-        'data-url': entry,
-        'style': {
-          backgroundSize: 'cover',
-          backgroundImage: `url('${entry}/thumbnail.png')`,
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center'
-        },
-        'mouseover': onMouseOver,
-        'mouseout': onMouseOut
-      })
-    )
+    return entryEl(entry)
   })
   render('.feed', entries)
 }

@@ -1,1 +1,7 @@
 .DS_Store
+node_modules
+research/output/*.png
+research/output/*.jpg
+research/output/*.jpeg
+research/output/*.gif
+deploy

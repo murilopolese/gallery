@@ -19,7 +19,7 @@ function getGroup(name) {
   // Pattern for second line
   const secondLines = [[2,1,1,1], [3,3,2,2], [4,4,4,3]]
   // Possible lines
-  let lines = [1, 2, 3, 4] 
+  let lines = [1, 2, 3, 4]
   // Split roman and arabic parts of name
   let info = name.split(' ');
   let roman = info[0]
@@ -54,7 +54,7 @@ MOLNAR.forEach(function(name, i) {
   let row = Math.floor( i / T );
   let x = col * 2;
   let y = row * 2;
-  
+
   matrix[x][y] = group[0]
   matrix[x+1][y] = group[1]
   matrix[x][y+1] = group[2]
@@ -63,7 +63,7 @@ MOLNAR.forEach(function(name, i) {
 
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(min(windowHeight,600), min(windowHeight,600));
   smooth();
   sqSize = width / W;
   halfSq = sqSize/2;
@@ -76,10 +76,10 @@ function draw() {
       if (!matrix[x]) continue;
       push();
       translate(
-        x*sqSize + halfSq, 
+        x*sqSize + halfSq,
         y*sqSize + halfSq
       );
-      strokeWeight(2.5);
+      strokeWeight(width/240);
       drawLine(matrix[x][y]);
       pop();
     }
@@ -115,7 +115,7 @@ function drawLine(n) {
       );
       break;
     default:
-      
+
   }
 }
 

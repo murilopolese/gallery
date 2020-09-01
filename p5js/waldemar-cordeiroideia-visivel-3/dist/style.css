@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: #222;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+canvas {
+  margin: auto;
+}
