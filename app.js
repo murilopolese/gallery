@@ -82,7 +82,8 @@ function onMouseOver(e) {
     let el = h('iframe', {
       src: url,
       style: { opacity: 0 },
-      load: () => el.style.opacity = 1
+      load: () => el.style.opacity = 1,
+			scrolling: 'no'
     })
     target.appendChild(el)
   }

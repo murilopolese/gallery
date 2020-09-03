@@ -85,9 +85,17 @@ Morreu aos 92 anos, no Rio de Janeiro, vítima de COVID-19.[[3]](https://pt.wiki
 
 </row>
 
+<row>
+
+![https://nararoesler.art/en/exhibitions/28](24182.webp)
+![https://nararoesler.art/en/exhibitions/28](9.-w-413.webp)
+
+</row>
+
 ## Exibiçōes
 
 - https://www.itaucultural.org.br/ocupacao/abraham-palatnik/galeria-de-obras/
+- https://nararoesler.art/en/exhibitions/28/
 
 <row>
 

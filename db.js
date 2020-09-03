@@ -22,12 +22,12 @@ window.db = [
   {
     title: "Linear figure",
     research: "./research/output/john-withney.html",
-    display: "./p5js/john-withneylinear-figure-1",
+    display: "./p5js/john-withneylinear-figure-3",
   },
   {
     title: "Linear figure",
     research: "./research/output/john-withney.html",
-    display: "./p5js/john-withneylinear-figure-3",
+    display: "./p5js/john-withneylinear-figure-1",
   },
   {
     title: "Linear figure",
@@ -38,11 +38,6 @@ window.db = [
     title: "Linear figure",
     research: "./research/output/john-withney.html",
     display: "./p5js/john-withneylinear-figure-4-two",
-  },
-  {
-    title: "Linear figure",
-    research: "./research/output/john-withney.html",
-    display: "./p5js/john-withneylinear-figure-1",
   },
   {
     title: "Matrix study",
@@ -138,5 +133,15 @@ window.db = [
     title: "Estrutura determinada e determinante",
     research: "./research/output/waldemar-cordeiro.html",
     display: "./p5js/waldemar-cordeiroestrutura-determinada-e-determinante-2",
+  },
+  {
+    title: "Intersections",
+    research: "./research/output/waldemar-cordeiro.html",
+    display: "./p5js/waldemar-cordeiro-intersections",
+  },
+  {
+    title: "M",
+    research: "./research/output/abraham-palatnik.html",
+    display: "./p5js/abraham-palatnik-m1",
   },
 ]
