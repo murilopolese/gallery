@@ -144,4 +144,9 @@ window.db = [
     research: "./research/output/abraham-palatnik.html",
     display: "./p5js/abraham-palatnik-m1",
   },
+  {
+    title: "Source code",
+    research: "https://tecnoxamanismo.wordpress.com/",
+    display: "./p5js/helicoidal-lines",
+  },
 ]

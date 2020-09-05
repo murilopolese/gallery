@@ -34,6 +34,7 @@ Artistas:
 - Nise da Silveira
 - Almir Mavignier
 - venezuelano Jesús Rafael Soto
+- Carlos Cruz Diez
 - Argentino Gyula Kosice
 - Rubem Ludolf
 - Aluísio Carvão
