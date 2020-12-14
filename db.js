@@ -149,4 +149,9 @@ window.db = [
     research: "https://tecnoxamanismo.wordpress.com/",
     display: "./p5js/helicoidal-lines",
   },
+  {
+    title: "M",
+    research: "./research/output/abraham-palatnik.html",
+    display: "./p5js/abraham-palatnik-m2",
+  },
 ]
