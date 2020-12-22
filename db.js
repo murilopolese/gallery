@@ -154,14 +154,14 @@ window.db = [
     research: "./research/output/abraham-palatnik.html",
     display: "./p5js/abraham-palatnik-m2",
   },
-  // {
-  //   title: "Castiglilo 1",
-  //   research: "https://www.jcmac.art/artists/costigliolo-jose-pedro/",
-  //   display: "./p5js/costigliolo",
-  // },
   {
-    title: "Castiglilo 2",
+    title: "Costigliolo 2",
     research: "https://www.jcmac.art/artists/costigliolo-jose-pedro/",
     display: "./p5js/costigliolo-2",
+  },
+  {
+    title: "Costigliolo 4",
+    research: "https://www.jcmac.art/artists/costigliolo-jose-pedro/",
+    display: "./p5js/costigliolo-4",
   },
 ]
