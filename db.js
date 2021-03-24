@@ -164,4 +164,9 @@ window.db = [
     research: "https://www.jcmac.art/artists/costigliolo-jose-pedro/",
     display: "./p5js/costigliolo-4",
   },
+  {
+    title: "Computer images",
+    research: "./research/output/vasulkas.html",
+    display: "./p5js/vasulkas-computer-images"
+  },
 ]

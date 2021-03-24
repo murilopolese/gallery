@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background: #222;
+  text-align: center;
+}
+main {
+  padding: 2.5vh;
+  height: 100vh;
+  display: flex;
+}
+
+canvas {
+  margin: auto;
+}
+
+button, input {
+  text-align: center;
+}

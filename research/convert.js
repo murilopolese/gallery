@@ -27,7 +27,7 @@ async function getHtml(mdFile) {
         href.indexOf('youtube.com') !== -1
         || href.indexOf('youtube-nocookie.com') !== -1
       ) {
-        return `<span class="embed"><iframe width="960" height="540" src="${href}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>`
+        return `<span class="embed"><iframe width="960" height="540" src="${href}" frameborder="0" allowfullscreen></iframe></span>`
       }
       if (href.indexOf('http') !== -1) {
         return `
@@ -47,10 +47,6 @@ async function getHtml(mdFile) {
 }
 async function main() {
   let htmlContent = await getHtml(mdFileName)
-  let tracking = ''
-  if (process.env.NODE_ENV === 'production') {
-    tracking = '<script async defer data-website-id="1c614f8d-3e4a-474f-ac31-bddb4b7780ae" src="http://umami.bananabanana.me/umami.js"></script>'
-  }
   let template = `
   <!DOCTYPE html>
   <html lang="pt" dir="ltr">
@@ -122,7 +118,6 @@ async function main() {
           justify-content: space-between;
         }
       </style>
-      ${tracking}
     </head>
     <body>
       <ul class="menu">

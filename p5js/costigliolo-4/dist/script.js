@@ -89,7 +89,6 @@ function draw() {
       maxSize.x, maxSize.y,
       random(0, 360)
     )
-    console.log('is colliding', !!b.isColliding(boxes))
     if (!b.isColliding(boxes)) {
       boxes.push(b)
       tries = 0
