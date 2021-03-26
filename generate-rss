@@ -9,7 +9,7 @@ const config = {
   feed_url: 'http://gallery.bananabanana.me/rss.xml',
   site_url: 'http://gallery.bananabanana.me',
   language: 'en',
-  categories: ['Poetic','Computation','Ard'],
+  categories: ['Poetic','Computation','Art'],
   ttl: '60'
 }
 const feed = new RSS(config)
