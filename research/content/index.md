@@ -7,7 +7,7 @@ Artistas:
 - [Ivan Serpa](ivan-serpa.html)
 - [Lygia Clarke](lygia-clark.html)
 - [Franz Weissmann](franz-weissman.html)
-- [Lygia Pape](lygya-pape.html)
+- [Lygia Pape](lygia-pape.html)
 - Tomie Othake
 - José Costigliolo
 - Helio Oiticica
