@@ -1,0 +1,158 @@
+
+    <!DOCTYPE html>
+    <html lang="pt" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Research / Pesquisa</title>
+        <style>
+:root {
+  font-size: 2vh;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 1.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.images figure {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s;
+  margin: 0;
+}
+.images figure img {
+  padding: 0.5rem;
+}
+.images figure figcaption {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-style: italic;
+  color: #999;
+  padding: 0.5rem 0;
+}
+  </style>
+      </head>
+      <body>
+        <p><a href="./index.html"><</a></p>
+        <h1 id="research">Research</h1>
+<p>Artistas:</a><ul>
+<li><a href="waldemar_cordeiro.html">Waldemar Cordeiro</a></li>
+<li><a href="abraham_palatnik.html">Abraham Palatnik</a></li>
+<li><a href="ivan_serpa.html">Ivan Serpa</a></li>
+<li><a href="lygia_clark.html">Lygia Clarke</a></li>
+<li><a href="franz_weissman.html">Franz Weissmann</a></li>
+<li><a href="lygia_pape.html">Lygia Pape</a></li>
+<li>Tomie Othake</li>
+<li>José Costigliolo</li>
+<li>Helio Oiticica</li>
+<li>Diana Domingues</li>
+<li>Suzete Venturelli</li>
+<li>Ferreira Gullar</li>
+<li>Anatol Wladyslaw</li>
+<li>Geraldo de Barros</li>
+<li>Lothar Charoux</li>
+<li>Luiz Sacilotto</li>
+<li>Kazmer Fejer</li>
+<li>Leopoldo Haar</li>
+<li>Hermelindo Fiaminghi</li>
+<li>Waldemar da Costa</li>
+<li>Mauricio Nogueira Lima</li>
+<li>Alfredo Volpi</li>
+<li>Tomás Maldonado</li>
+<li>Haroldo de Campos</li>
+<li>Augusto de Campos</li>
+<li>Silviano Santiago</li>
+<li>Waly Salomão</li>
+<li>Amílcar de Castro</li>
+<li>Reynaldo Jardim</li>
+<li>Theon Spanudis</li>
+<li>Roberto Burle Marx</li>
+<li>Nise da Silveira</li>
+<li>Almir Mavignier</li>
+<li>venezuelano Jesús Rafael Soto</li>
+<li>Carlos Cruz Diez</li>
+<li>Argentino Gyula Kosice</li>
+<li>Rubem Ludolf</li>
+<li>Aluísio Carvão</li>
+<li>Décio Vieira</li>
+<li>João José Costa</li>
+<li>Lucio Fontana</li>
+<li>Julio Cortázar</li>
+</ul>
+<p>Grupos, movimentos e listas:</a><ul>
+<li><a href="https://www.moma.org/artists?exhibition_id=1532">https://www.moma.org/artists?exhibition_id=1532</a></li>
+<li><a href="https://www.moma.org/calendar/exhibitions/5061">https://www.moma.org/calendar/exhibitions/5061</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Neo-Concrete_Movement">https://en.wikipedia.org/wiki/Neo-Concrete_Movement</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Grupo_Frente">https://en.wikipedia.org/wiki/Grupo_Frente</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tropic%C3%A1lia">https://en.wikipedia.org/wiki/Tropicália</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Grupo_Ruptura">https://en.wikipedia.org/wiki/Grupo_Ruptura</a></li>
+<li><a href="https://pt.wikipedia.org/wiki/Arte_computacional">https://pt.wikipedia.org/wiki/Arte_computacional</a></li>
+<li>Concrete Art</li>
+</ul>
+<p>Criticos e curadores:</a><ul>
+<li>Mário Pedrosa</li>
+<li>Arlindo Machado</li>
+</ul>
+<h1 id="recreating-the-past"><a href="https://murilopolese.github.io/RTP_SFPC_SUMMER20/">Recreating the Past</a></h1>
+<ul>
+<li><a href="vera_molnar.html">Vera Molnár</a></li>
+<li><a href="anni_albers.html">Anni Albers</a></li>
+<li><a href="bridget_riley.html">Bridget Riley</a></li>
+<li><a href="john_whitney.html">John Whitney</a></li>
+<li><a href="ken_knowlton.html">Ken Knowlton</a></li>
+<li><a href="lillian_schwartz.html">Lillian Schwartz</a></li>
+<li><a href="muriel_cooper.html">Muriel Cooper</a></li>
+<li><a href="myron_krueger.html">Myron Krueger</a></li>
+<li><a href="rosa_menkan.html">Rosa Menkan</a></li>
+<li><a href="vasulkas.html">Woody and Steina Vasulka</a></li>
+<li><a href="nancy-burson.html">Nancy Burson</a></li>
+<li><a href="jason-salavon.html">Jason Salavon</a></li>
+</ul>
+
+        
+<script>
+window.onload = function() {
+  let imageRows = document.querySelectorAll('.images')
+  for (let row of imageRows) {
+    let images = row.querySelectorAll('img')
+    let sum = 0
+    let widths = []
+    for (let image of images) {
+      let width = image.naturalWidth
+      let height = image.naturalHeight
+      let normalizedWidth = width / height
+      widths.push(normalizedWidth)
+      sum += normalizedWidth
+    }
+    let proportions = widths.map(function(normalizedWidth) {
+      return normalizedWidth / sum
+    })
+    let figures = row.querySelectorAll('figure')
+    for (let i = 0; i < figures.length; i++) {
+      let figure = figures[i]
+      figure.style.width = proportions[i]*100 + "%"
+    }
+  }
+}
+</script>
+
+      </body>
+      </html>
+    

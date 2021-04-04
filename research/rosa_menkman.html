@@ -1,0 +1,109 @@
+
+    <!DOCTYPE html>
+    <html lang="pt" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Research / Pesquisa</title>
+        <style>
+:root {
+  font-size: 2vh;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 1.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.images figure {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s;
+  margin: 0;
+}
+.images figure img {
+  padding: 0.5rem;
+}
+.images figure figcaption {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-style: italic;
+  color: #999;
+  padding: 0.5rem 0;
+}
+  </style>
+      </head>
+      <body>
+        <p><a href="./index.html"><</a></p>
+        <h1 id="rosa-menkman">Rosa Menkman</h1>
+<p><a href="http://rosa-menkman.blogspot.com/">http://rosa-menkman.blogspot.com/</a></a><p><a href="https://beyondresolution.info/">https://beyondresolution.info/</a></a><p><a href="https://issuu.com/rosamenkman/docs/glitch_momentum_-_rosa_menkman">https://issuu.com/rosamenkman/docs/glitch_momentum_-_rosa_menkman</a></a><h1 id="works--images">Works + Images</h1>
+<div class="images">
+    <figure>
+      <img src="https://paper-attachments.dropbox.com/s_112F278E7FC28180C60D607D5B689B2390F7320AF4F158CDF7CF11238EC16938_1594307796457_image.png" alt="" />
+      <figcaption></figcaption>
+    </figure>
+    </div><p><a href="https://fineartamerica.com/profiles/rosa-menkman">https://fineartamerica.com/profiles/rosa-menkman</a></a><p><strong>The Collapse of PAL 2010-2012</strong></a><p><a href="https://www.youtube.com/watch?v=5-XVkI1z1m8&amp;&amp;feature=emb_title">https://www.youtube.com/watch?v=5-XVkI1z1m8&amp;&amp;feature=emb_title</a></a><p><a href="https://youtu.be/5-XVkI1z1m8">https://youtu.be/5-XVkI1z1m8</a></a><h1 id="videos">Videos</h1>
+<p><a href="https://www.youtube.com/watch?v=UYkVbaapuc8&amp;">https://www.youtube.com/watch?v=UYkVbaapuc8&amp;</a></a><p><a href="https://youtu.be/UYkVbaapuc8">https://youtu.be/UYkVbaapuc8</a></a><p><a href="https://www.youtube.com/watch?v=64V-nkVpnes&amp;">https://www.youtube.com/watch?v=64V-nkVpnes&amp;</a></a><p><a href="https://youtu.be/64V-nkVpnes">https://youtu.be/64V-nkVpnes</a></a><p><a href="https://www.youtube.com/watch?v=TeJYwBxw73U&amp;&amp;feature=share">https://www.youtube.com/watch?v=TeJYwBxw73U&amp;&amp;feature=share</a></a><p><a href="https://youtu.be/TeJYwBxw73U">https://youtu.be/TeJYwBxw73U</a></a><h1 id="journal-articles">Journal articles</h1>
+<p><a href="https://drive.google.com/file/d/15Mnz_TTGFtEeqlGh7zROUOhf1MG6A0IH/view?usp=sharing"><strong>Facing the Glitch: Abstraction, Abjection and the Digital Image by Allan Cameron</strong></a>
+Covers various artists including Menkman.</a><h1 id="related-artists">Related Artists</h1>
+<h2 id="legacy-russell">Legacy Russell</h2>
+<p><a href="https://legacyrussell.com/GLITCHFEMINISM">https://legacyrussell.com/GLITCHFEMINISM</a></a><h2 id="sara-cwynar">Sara Cwynar</h2>
+<div class="images">
+    <figure>
+      <img src="https://paper-attachments.dropbox.com/s_112F278E7FC28180C60D607D5B689B2390F7320AF4F158CDF7CF11238EC16938_1594307595739_image.png" alt="" />
+      <figcaption></figcaption>
+    </figure>
+    </div><h2 id="daniel-crooks">Daniel Crooks</h2>
+<p><a href="https://vimeo.com/danielcrooks">https://vimeo.com/danielcrooks</a></a><p><a href="http://annaschwartzgallery.com/artists/daniel-crooks/">http://annaschwartzgallery.com/artists/daniel-crooks/</a></a><div class="images">
+    <figure>
+      <img src="https://latroberegionalgallery.com/wp-content/uploads/2018/09/Static_12_05.jpg" alt="STATIC NO.12: Daniel Crooks | Latrobe Regional Gallery" />
+      <figcaption>STATIC NO.12: Daniel Crooks | Latrobe Regional Gallery</figcaption>
+    </figure>
+    </div><h2 id="phil-morton">Phil Morton</h2>
+<p><a href="https://vimeo.com/copyitright">https://vimeo.com/copyitright</a></a><p><a href="https://player.vimeo.com/video/231481434">https://player.vimeo.com/video/231481434</a></a><p><a href="https://vimeo.com/231481434">https://vimeo.com/231481434</a></a>
+        
+<script>
+window.onload = function() {
+  let imageRows = document.querySelectorAll('.images')
+  for (let row of imageRows) {
+    let images = row.querySelectorAll('img')
+    let sum = 0
+    let widths = []
+    for (let image of images) {
+      let width = image.naturalWidth
+      let height = image.naturalHeight
+      let normalizedWidth = width / height
+      widths.push(normalizedWidth)
+      sum += normalizedWidth
+    }
+    let proportions = widths.map(function(normalizedWidth) {
+      return normalizedWidth / sum
+    })
+    let figures = row.querySelectorAll('figure')
+    for (let i = 0; i < figures.length; i++) {
+      let figure = figures[i]
+      figure.style.width = proportions[i]*100 + "%"
+    }
+  }
+}
+</script>
+
+      </body>
+      </html>
+    
