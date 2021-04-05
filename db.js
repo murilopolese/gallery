@@ -203,6 +203,18 @@ let db = [
     display: "./p5js/vasulkas-computer-images",
     date: '2021-03-26'
   },
+  {
+    title: "Vasulka GL",
+    research:"./research/vasulkas.html",
+    display: "./p5js/vasulkagl",
+    date: '2021-04-05'
+  },
+  {
+    title: "Mostra Lâmina",
+    research: "http://www.mostralamina.com.br/",
+    display: "./p5js/werllen-castro-mostra-lamina",
+    date: '2021-04-05'
+  },
 ]
 
 try {
