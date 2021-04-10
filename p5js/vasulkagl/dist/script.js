@@ -6,8 +6,8 @@ function setup() {
   let vs = `
   ${varying}
   attribute vec3 aPosition;
-  void main() { 
-    vPos = (gl_Position = vec4(aPosition,1.0)).xy; 
+  void main() {
+    vPos = (gl_Position = vec4(aPosition,1.0)).xy;
   }
   `
   let fs = `
@@ -16,16 +16,16 @@ function setup() {
   uniform float t;
   void main() {
       vec3 col = vec3(
-        mod( 
-          (gl_FragCoord.x*gl_FragCoord.y) + t, 
-          res.x
-        )  / res.x,
-        mod( 
+        mod(
           (gl_FragCoord.x*gl_FragCoord.y) + t,
           res.x
         )  / res.x,
-        mod( 
-          (gl_FragCoord.x*gl_FragCoord.y) + t, 
+        mod(
+          (gl_FragCoord.x*gl_FragCoord.y) + t,
+          res.x
+        )  / res.x,
+        mod(
+          (gl_FragCoord.x*gl_FragCoord.y) + t,
           res.x
         )  / res.x
       );
@@ -33,8 +33,8 @@ function setup() {
   }
   `
   createCanvas(
-    min(size, windowWidth), 
-    min(size, windowWidth), 
+    min(size, windowWidth),
+    min(size, windowWidth),
     WEBGL
   )
   d = createShader(vs, fs)

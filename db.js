@@ -185,12 +185,12 @@ let db = [
     display: "./p5js/abraham-palatnik-m2",
     date: '2021-03-26'
   },
-  {
-    title: "Costigliolo 2",
-    research: "https://www.jcmac.art/artists/costigliolo-jose-pedro/",
-    display: "./p5js/costigliolo-2",
-    date: '2021-03-26'
-  },
+  // {
+  //   title: "Costigliolo 2",
+  //   research: "https://www.jcmac.art/artists/costigliolo-jose-pedro/",
+  //   display: "./p5js/costigliolo-2",
+  //   date: '2021-03-26'
+  // },
   {
     title: "Costigliolo 4",
     research: "https://www.jcmac.art/artists/costigliolo-jose-pedro/",
