@@ -19,7 +19,24 @@ Documentary on the Vasulkas
 
 [https://www.youtube.com/watch?v=6eJPG205eBk](https://www.youtube.com/watch?v=6eJPG205eBk)
 
-[https://youtu.be/6eJPG205eBk](https://youtu.be/6eJPG205eBk)
+Computer Images:
+
+https://www.youtube.com/watch?v=u9bPsYWUGS0
+
+Vasulkas worktape:
+
+https://www.youtube.com/watch?v=3EDsUP7I-9w
+
+Interviews:
+
+https://www.youtube.com/watch?v=ekKTfufP3Wk
+
+https://www.youtube.com/watch?v=8mU73r-xP1w&t=1s
+
+Artisode:
+
+https://www.youtube.com/watch?v=Ylow_1ytoiE
+
 
 The Kitchen >> https://thekitchen.org/
 
