@@ -5,7 +5,7 @@
 - [Waldemar Cordeiro](waldemar_cordeiro.html)
 - [Abraham Palatnik](abraham_palatnik.html)
 - [Ivan Serpa](ivan_serpa.html)
-- [Lygia Clarke](lygia_clark.html)
+- [Lygia Clark](lygia_clark.html)
 - [Franz Weissmann](franz_weissman.html)
 - [Lygia Pape](lygia_pape.html)
 

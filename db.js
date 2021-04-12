@@ -215,6 +215,18 @@ let db = [
     display: "./p5js/werllen-castro-mostra-lamina",
     date: '2021-04-05'
   },
+  {
+    title: "Shapes",
+    research: "./research",
+    display: "./p5js/shapes",
+    date: '2021-04-11'
+  },
+  {
+    title: "Lygia Clark 1",
+    research: "./research/lygia_clark.html",
+    display: "./p5js/lygia-clark-1",
+    date: '2021-04-11'
+  },
 ]
 
 try {
