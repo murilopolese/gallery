@@ -227,6 +227,12 @@ let db = [
     display: "./p5js/lygia-clark-1",
     date: '2021-04-11'
   },
+  {
+    title: "ASCII 01",
+    research: "./",
+    display: "./p5js/ascii-01",
+    date: '2021-05-31'
+  },
 ]
 
 try {

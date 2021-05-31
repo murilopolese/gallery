@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --size: 90vh;
+  font-size: calc(var(--size) / 80);
+}
+
+body {
+  margin: 0;
+  font-family: monospace;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+#display {
+  background: beige;
+  margin: auto;
+  width: calc(min(100vw, var(--size)) + 2em);
+  height: calc(min(100vh, var(--size)) + 2em);
+  display: flex;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.4rem;
+  padding: 1rem;
+}
+
+.cell {
+  cursor: pointer;
+}
