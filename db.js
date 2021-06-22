@@ -229,9 +229,15 @@ let db = [
   },
   {
     title: "ASCII 01",
-    research: "./",
+    research: "./research",
     display: "./p5js/ascii-01",
     date: '2021-05-31'
+  },
+  {
+    title: "Becoming Precious",
+    research: "./research",
+    display: "./p5js/becoming-precious",
+    date: '2021-06-22'
   },
 ]
 
