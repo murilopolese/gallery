@@ -239,6 +239,12 @@ let db = [
     display: "./p5js/becoming-precious",
     date: '2021-06-22'
   },
+  {
+    title: "Humans since 1982",
+    research: "https://www.humanssince1982.com/",
+    display: "./p5js/humans-since-1982",
+    date: '2021-06-22'
+  },
 ]
 
 try {
