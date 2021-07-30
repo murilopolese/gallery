@@ -245,6 +245,12 @@ let db = [
     display: "./p5js/humans-since-1982",
     date: '2021-06-22'
   },
+  {
+    title: "Willis de Castro",
+    research: "./research",
+    display: "./p5js/willis-de-castro",
+    date: '2021-06-30'
+  },
 ]
 
 try {
