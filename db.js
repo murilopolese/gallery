@@ -251,6 +251,12 @@ let db = [
     display: "./p5js/willis-de-castro",
     date: '2021-06-30'
   },
+  {
+    title: "Radial",
+    research: "./research",
+    display: "./p5js/radial",
+    date: '2021-08-16'
+  },
 ]
 
 try {
