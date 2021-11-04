@@ -257,6 +257,24 @@ let db = [
     display: "./p5js/radial",
     date: '2021-08-16'
   },
+  {
+    title: "Olhos Hiperbólicos",
+    research: "./research",
+    display: "./p5js/olhos-hiperbólicos",
+    date: '2021-11-04'
+  },
+  {
+    title: "White Globe",
+    research: "./research",
+    display: "./p5js/white-globe",
+    date: '2021-11-04'
+  },
+  // {
+  //   title: "Linear Figure",
+  //   research: "./research",
+  //   display: "./p5js/john-whitney-linear-figure-1",
+  //   date: '2021-11-04'
+  // },
 ]
 
 try {
