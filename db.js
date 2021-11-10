@@ -269,12 +269,36 @@ let db = [
     display: "./p5js/white-globe",
     date: '2021-11-04'
   },
-  // {
-  //   title: "Linear Figure",
-  //   research: "./research",
-  //   display: "./p5js/john-whitney-linear-figure-1",
-  //   date: '2021-11-04'
-  // },
+  {
+    title: "Linear Figure",
+    research: "./research",
+    display: "./p5js/john-whitney-linear-figure-1",
+    date: '2021-11-04'
+  },
+  {
+    title: "Linear Figure",
+    research: "./research",
+    display: "./p5js/john-whitney-linear-figure-2",
+    date: '2021-11-04'
+  },
+  {
+    title: "Lines",
+    research: "./research/carlos_cruz-diez.html",
+    display: "./p5js/cruz-diez-1",
+    date: '2021-11-08'
+  },
+  {
+    title: "Lines",
+    research: "./research/carlos_cruz-diez.html",
+    display: "./p5js/cruz-diez-2",
+    date: '2021-11-08'
+  },
+  {
+    title: "Mathematical Sciences",
+    research: "./research/muriel_cooper.html",
+    display: "./p5js/muriel-cooperthe-mathematical-sciences",
+    date: '2021-11-08'
+  },
 ]
 
 try {

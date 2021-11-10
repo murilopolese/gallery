@@ -9,6 +9,7 @@
 - [Franz Weissmann](franz_weissman.html)
 - [Lygia Pape](lygia_pape.html)
 - [Eduardo Kac](eduardo_kac.html)
+- [Carlos Cruz-Diez](carlos_cruz-diez.html)
 
 ## [Recreating the Past](https://murilopolese.github.io/RTP_SFPC_SUMMER20/)
 
