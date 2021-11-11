@@ -297,7 +297,13 @@ let db = [
     title: "Mathematical Sciences",
     research: "./research/muriel_cooper.html",
     display: "./p5js/muriel-cooperthe-mathematical-sciences",
-    date: '2021-11-08'
+    date: '2021-11-10'
+  },
+  {
+    title: "Blob",
+    research: "./research",
+    display: "./p5js/blob",
+    date: '2021-11-11'
   },
 ]
 
