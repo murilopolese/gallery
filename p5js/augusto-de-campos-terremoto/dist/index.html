@@ -1,0 +1,71 @@
+<title>Augusto de Campos - Terremoto</title>
+
+<pre>
+    o
+  novelo
+  ovo
+ ovo       sol
+  e        o
+  l        letra
+  o        e
+         estrela  t
+         s r      e
+     soletra      r
+     o e r        r
+     l t e        e
+       r l      temor
+       a a        o
+              t   t  t
+              e  morte
+         terremoto   r
+              o  r   metro
+              r  t   o
+                termo   m m
+                   e   motor
+                   t  motor
+                   r   torto
+                   o  morto
+                       r o
+</pre>
+
+<style>
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background: #21397c;
+  display: flex;
+  font-size: min(2.5vh, 2.5vw);
+
+}
+pre {
+  text-align: left;
+  margin: auto;
+  line-height: 1.2em;
+  letter-spacing: 0.6em;
+}
+</style>
+
+<script>
+  poesia = document.querySelector('pre')
+  lines = poesia.innerText.split('\n')
+  lines = lines.filter(l => l)
+  count = 0
+  setInterval(function() {
+    letters = lines.map(l => l.split(''))
+    letters.forEach((line, y) => {
+      line.forEach((letter, x) => {
+        if (
+          (count%110 < x+y)
+          || (count%110 > x+y + 60)
+        ) {
+          letters[y][x] = ' ';
+        }
+      })
+    })
+    j = letters.map(l => l.join('')).join('\n')
+    poesia.innerText = j
+    count += 1
+  }, 80)
+</script>

@@ -305,6 +305,30 @@ let db = [
     display: "./p5js/blob",
     date: '2021-11-11'
   },
+  {
+    title: "Terra",
+    research: "./research",
+    display: "./p5js/decio-pignatari-terra",
+    date: '2021-11-11'
+  },
+  {
+    title: "Blobs",
+    research: "./research",
+    display: "./p5js/blob2",
+    date: '2021-11-13'
+  },
+  {
+    title: "Blobs",
+    research: "./research",
+    display: "./p5js/blob3",
+    date: '2021-11-14'
+  },
+  {
+    title: "Terremoto",
+    research: "./research",
+    display: "./p5js/augusto-de-campos-terremoto",
+    date: '2021-11-11'
+  },
 ]
 
 try {

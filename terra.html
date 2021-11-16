@@ -1,0 +1,46 @@
+<title>TERRA</title>
+
+<pre>
+ra terra ter
+rat erra ter
+rate rra ter
+rater ra ter
+raterr a ter
+raterra terr
+araterra ter
+raraterra te
+rraraterra t
+erraraterra
+terraraterra
+</pre>
+
+<style>
+body {
+  margin: 0;
+  background: #fae7cf;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+pre {
+  margin: auto;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2.5vh;
+  letter-spacing: 0.2vh;
+}
+</style>
+
+<script>
+window.onload = function() {
+  poem = document.querySelector('pre')
+  lines = poem.innerText.split('\n')
+  lines = lines.filter(l => l)
+
+  setInterval(function() {
+    last = lines.pop()
+    lines = [last].concat(lines)
+    poem.innerText = lines.join('\n')
+  }, 250)
+}
+</script>
