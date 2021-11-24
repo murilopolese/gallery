@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blobls</title>
+    <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
+    <style media="screen">
+      body {
+        margin: 0;
+        background: black;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+      }
+      canvas {
+        margin: auto;
+        width: min(100vw, 100vh);
+        height: min(100vw, 100vh);
+      }
+    </style>
+  </head>
+  <body>
+    <canvas class="glslCanvas" data-fragment-url="shader.frag" width="800" height="800"></canvas>
+  </body>
+</html>

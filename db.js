@@ -327,7 +327,19 @@ let db = [
     title: "Terremoto",
     research: "./research",
     display: "./p5js/augusto-de-campos-terremoto",
-    date: '2021-11-11'
+    date: '2021-11-15'
+  },
+  {
+    title: "Blob",
+    research: "./research",
+    display: "./p5js/blob4",
+    date: '2021-11-19'
+  },
+  {
+    title: "Olhos Hiperbólicos",
+    research: "./research",
+    display: "./p5js/olhos-hiperbólicos-2",
+    date: '2021-11-04'
   },
 ]
 
