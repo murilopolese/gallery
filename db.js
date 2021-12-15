@@ -341,6 +341,12 @@ let db = [
     display: "./p5js/olhos-hiperbólicos-2",
     date: '2021-11-04'
   },
+  {
+    title: "Colors",
+    research: "./research",
+    display: "./p5js/cruz-diez-3",
+    date: '2021-12-15'
+  },
 ]
 
 try {
