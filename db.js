@@ -343,9 +343,39 @@ let db = [
   },
   {
     title: "Colors",
-    research: "./research",
+    research: "./research/carlos_cruz-diez.html",
     display: "./p5js/cruz-diez-3",
     date: '2021-12-15'
+  },
+  {
+    title: "Differential Growth",
+    research: "./research",
+    display: "./p5js/differential-growth",
+    date: '2021-12-29'
+  },
+  {
+    title: "Differential Growth: Interaction Network",
+    research: "./research",
+    display: "./p5js/differential-growth-interaction-network",
+    date: '2021-12-29'
+  },
+  {
+    title: "Scribbles",
+    research: "./research",
+    display: "./p5js/scribble",
+    date: '2021-01-03'
+  },
+  {
+    title: "Differential Push Cell",
+    research: "./research",
+    display: "./p5js/diff-push-cell",
+    date: '2022-01-03'
+  },
+  {
+    title: "Homenagem ao Pedrinho",
+    research: "http://www.pierrebuttin.com/",
+    display: "./p5js/hommage-a-pipi",
+    date: '2022-01-03'
   },
 ]
 
