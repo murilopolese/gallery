@@ -377,6 +377,12 @@ let db = [
     display: "./p5js/hommage-a-pipi",
     date: '2022-01-03'
   },
+  {
+    title: "Ovo Frito",
+    research: "./research",
+    display: "./p5js/ovo-frito",
+    date: '2022-01-12'
+  },
 ]
 
 try {
