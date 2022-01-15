@@ -4,7 +4,7 @@
   "description": "![Murilism](./murilismo.jpg)",
   "main": "app.js",
   "dependencies": {
-    "marked": "^2.0.1",
+    "marked": "^4.0.10",
     "ncp": "^2.0.0",
     "rss": "^1.2.2"
   },
