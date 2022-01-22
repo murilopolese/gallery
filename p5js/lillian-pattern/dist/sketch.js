@@ -1,6 +1,6 @@
 let { Graph } = window.graphlib
-let W = 16
-let H = 8
+let W = 160
+let H = 160
 
 // let g
 
@@ -19,16 +19,16 @@ function setup() {
   )
   background(0)
   noStroke()
-  noLoop()
-  // frameRate(1)
+  // noLoop()
+  frameRate(1)
   draw()
 
 }
 
 function draw() {
   background(0)
-  W = irandom(4, 32)
-  H = irandom(4, 32)
+  W = H = irandom(4, 32)
+  // H = irandom(4, 32)
   let r = width / (2 * Math.max(W, H) )
 
   const g = new Graph({
@@ -41,21 +41,20 @@ function draw() {
     }
   }
 
-  for (let i = 0; i < W*H; i++) {
-    let x = irandom(1, W-1)
-    let y = irandom(1, H-1)
-    let randomLabel = `${x}x${y}`
-
-    let eX = x
-    let eY = y
-    switch(irandom(4)) {
-      case 0: eY -= 1; break
-      case 1: eX += 1; break
-      case 2: eY += 1; break
-      case 3: eX -= 1; break
+  for (let x = 1; x < W-1; x++) {
+    for (let y = 1; y < H-1; y++) {
+      let nodeLabel = `${x}x${y}`
+      let eX = x
+      let eY = y
+      switch(irandom(4)) {
+        case 0: eY -= 1; break
+        case 1: eX += 1; break
+        case 2: eY += 1; break
+        case 3: eX -= 1; break
+      }
+      let edgeLabel = `${eX}x${eY}`
+      g.setEdge(nodeLabel, edgeLabel)
     }
-    let edgeLabel = `${eX}x${eY}`
-    g.setEdge(randomLabel, edgeLabel)
   }
 
   fill(255)
