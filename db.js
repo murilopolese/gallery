@@ -383,6 +383,12 @@ let db = [
     display: "./p5js/ovo-frito",
     date: '2022-01-12'
   },
+  {
+    title: "Lillian pattern",
+    research: "./research/lillian_schwartz.html",
+    display: "./p5js/lillian-pattern",
+    date: '2022-01-22'
+  },
 ]
 
 try {

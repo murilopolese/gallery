@@ -15,7 +15,7 @@
 
 ## Website:
 - http://lillian.com/films/
-- 
+-
 - http://lillian.com/documentaries/
 ## Films
 https://player.vimeo.com/video/116553250
@@ -104,6 +104,8 @@ https://www.artsy.net/artwork/lillian-schwartz-homage-to-duchamp-nude-ascending-
 
 https://hyperallergic.com/329466/paying-tribute-lillian-schwartz-computer-art-pioneer/
 
+![](./media/lillian_pattern.webp)
+
 
 Schwartz’s editing techniques may seem old hat to some 21st-century viewers, but her videos still consistently compel; many of them get their charge from familiar, organic-looking material manipulated to form highly sensory experiences. What’s particularly remarkable, however, is that Schwartz arrived at some of her innovative techniques because of personal physical limitations. In 1955, she was diagnosed with [chorioretinitis](https://en.wikipedia.org/wiki/Chorioretinitis), which affects how she perceives color. It led her to devise methods of oversaturating her creations, ultimately enabling many of her films from the ’70s to be seen in both 2D and 3D; they predated the development of [pixel-shifting technology](https://books.google.com/books?id=mENsBAAAQBAJ&lpg=PA503&ots=vxuooNkT2f&dq=pixel%20shift%202d%203d&pg=PA503#v=twopage&q=pixel%20shift%202d%203d&f=true), which is required for such conversion. And earlier, after the end of World War II, Schwartz contracted polio while living in Japan and practiced Japanese calligraphy to recover from muscle weakness. The painterly elements evident in many of her works produce an expressiveness so unexpected of computer imagery at the time.
 
@@ -156,6 +158,3 @@ https://player.vimeo.com/video/11317448
 
 
 [https://vimeo.com/11317448](https://vimeo.com/11317448)
-
-
-
