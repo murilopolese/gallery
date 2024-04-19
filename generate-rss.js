@@ -1,5 +1,3 @@
-#!/Users/murilopolese/.nvm/versions/node/v12.16.3/bin/node
-
 const fs = require('fs')
 const RSS = require('rss')
 

@@ -16,6 +16,7 @@ Thus her series of woodblock prints are now understood as transitional piece bet
 
 
 ## Tecelares (1950s)
+
 ![](https://paper-attachments.dropbox.com/s_E6ED0EF52DB622D3991CE8C206AB1E7DA584387D2996DEAAA38C61BEF85887F1_1600461825082_image.png)
 ![](https://paper-attachments.dropbox.com/s_E6ED0EF52DB622D3991CE8C206AB1E7DA584387D2996DEAAA38C61BEF85887F1_1600461853740_image.png)
 
@@ -43,3 +44,27 @@ https://www.hauserwirth.com/stories/22589-paula-pape-lygia-pape
 
 ![](https://bynder-public-eu-central-1.s3.amazonaws.com/media/7F8951FF-19D4-45D4-B982D6125B7E7BD3/4604D19D-2E33-49F1-89D41DE1B0E02712/A370C64B-5E36-4A51-8F6E0476E0426ACA/webimage-0415880C-FDE2-4E5D-A1CEA7FC852934F4.jpg)
 ![](https://bynder-public-us-east-1.s3.amazonaws.com/media/7F8951FF-19D4-45D4-B982D6125B7E7BD3/497BCBA9-AC17-44A7-989D9C0CD310FF79/webimage-CC777B79-3382-477D-8F0981BFCE6A64A0.jpg)
+
+![](https://precodebanana.files.wordpress.com/2012/05/tecelares-1957-lygia-pape.jpg)
+![](https://64.media.tumblr.com/cc574360600958558a0c15c930ab944e/tumblr_oedz4nJow71v90ezqo1_1280.jpg)
+
+## Links and more images
+
+- https://www.thejewelleryeditor.com/images/lygia-pape-untitled-tecelar-weavings-1953-woodcut-on-japanese-paper-325-x-445-cm-installation-view-museo-nacional-centro-de-arte-reina-sofia-2011-projeto-lygia-pape-and-museo-nacional-centro-de-arte-reina-sofia/
+- https://www.galleriesnow.net/shows/lygia-pape-2/
+- https://www.studiointernational.com/index.php/lygia-pape-a-multitude-of-forms-met-breuer
+- https://modosdeolhar.blogspot.com/2013/07/lygia-pape-1929-2004.html
+- https://purple.fr/diary/lygia-pape-multitude-forms-exhibition-metropolitan-museum-art-new-york/
+- https://dasartes.com.br/materias/lygia-pape/
+- https://www.artic.edu/artists/63901/lygia-pape?ef-classification_ids=pen+and+ink+drawings
+- https://www.artic.edu/artworks/237016/untitled
+- https://awarewomenartists.com/en/artiste/lygia-pape/
+- https://marcoanogueira.pro/reinventar-articular-reconstruir/
+- https://mundourbano.blogspot.com/2018/11/lygia-pape-brazilian-19292004.html
+- https://revistapoder.uol.com.br/edicoes/edicao-143/lygia-pape-artista-mutante/
+- https://www.wikiart.org/en/lygia-pape/tecelar-1955
+- https://www.historiadasartes.com/prazer-em-conhecer/lygia-pape/
+- https://likeyou.com/events/lygia-pape/
+- https://www.wikiart.org/en/lygia-pape/lygia-pape-and-tecelar-1955
+- https://casavogue.globo.com/MostrasExpos/noticia/2012/03/sp-ve-obra-completa-de-lygia-pape.html
+- https://www.artsy.net/artist/lygia-pape
