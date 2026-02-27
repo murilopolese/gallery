@@ -389,6 +389,24 @@ let db = [
     display: "./p5js/lillian-pattern",
     date: '2022-01-22'
   },
+  {
+    title: "Athos Bulcão",
+    research: "./research/index.html",
+    display: "./p5js/athos-bulcao",
+    date: '2025-04-30'
+  },
+  {
+    title: "Hélio Oiticica Metaesquemas",
+    research: "./research/index.html",
+    display: "./p5js/helio-oiticica-metaesquemas",
+    date: '2025-05-15'
+  },
+  {
+    title: "Hélio Oiticica Metaesquemas",
+    research: "./research/index.html",
+    display: "./p5js/helio-oiticica-metaesquemas2",
+    date: '2025-05-14'
+  },
 ]
 
 try {
